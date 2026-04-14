@@ -17,7 +17,6 @@ add_library(BRKGA::brkga ALIAS brkga)
 
 target_sources(brkga
     PRIVATE
-        src/BRKGA.cpp
         src/Population.cpp
     PUBLIC
         FILE_SET HEADERS
